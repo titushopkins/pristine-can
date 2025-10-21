@@ -2,16 +2,15 @@
   <div class="bg-gray-50 text-gray-900">
 
     <!-- Top strip -->
-    <div class="bg-[#7A2525] text-white text-center text-sm py-2">
+    <!-- <div class="bg-pristine-dark-blue text-white text-center text-sm py-2">
       Locally Owned • Fully Sanitized • Odor-Free Guarantee
-    </div>
+    </div> -->
 
     <!-- Hero -->
-    <section class="bg-gradient-to-b from-black to-gray-900 text-white">
+    <section class="bg-gradient-to-b from-black to-pristine-purple text-white">
       <div class="max-w-6xl mx-auto px-6 py-16">
         <div class="flex items-baseline space-x-3">
-          <span class="bg-white text-black font-extrabold tracking-widest px-3 py-1 text-2xl leading-none">ELITE</span>
-          <span class="uppercase tracking-[0.25em] text-sm">Waste Logistics</span>
+          <span class="bg-white text-black font-extrabold tracking-widest px-3 py-1 text-2xl leading-none">Pristine Can</span>
         </div>
         <h1 class="mt-6 text-4xl md:text-5xl font-extrabold">About Us</h1>
         <p class="mt-4 text-gray-300 max-w-3xl">
@@ -26,7 +25,7 @@
         <div class="space-y-5">
           <h2 class="text-2xl md:text-3xl font-bold">Six Brothers. One Standard.</h2>
           <p class="text-gray-700">
-            Elite Waste Logistics began with a simple idea on trash day: <em>why do clean homes have to live with dirty cans?</em>
+            Pristine Can began with a simple idea on trash day: <em>why do clean homes have to live with dirty cans?</em>
             What started as helping neighbors turned into a family business committed to raising the bar for curbside care.
           </p>
           <p class="text-gray-700">
@@ -56,19 +55,8 @@
               “We exist to deliver a cleaner, healthier curbside for every home we serve—performed with
               excellence, respect, and family-level care.”
             </p>
-            <p class="mt-6 font-semibold">— Elite Waste Team</p>
+            <p class="mt-6 font-semibold">— Pristine Can Team</p>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="bg-black text-white">
-      <div class="max-w-6xl mx-auto px-6 py-14 flex flex-col md:flex-row items-center justify-between gap-6">
-        <h4 class="text-2xl font-bold">Ready to freshen your cans?</h4>
-        <div class="flex gap-3">
-          <a href="/contact" class="rounded-xl bg-[#7A2525] px-6 py-3 font-semibold hover:bg-[#5f1d1d]">Contact Us</a>
-          <a href="/#pricing" class="rounded-xl bg-white text-black px-6 py-3 font-semibold hover:bg-gray-100">See Pricing</a>
         </div>
       </div>
     </section>

@@ -24,7 +24,7 @@
 
   <script>
   export default {
-    name: "EliteWaste",
+    name: "PristineCan",
   };
   </script>
 

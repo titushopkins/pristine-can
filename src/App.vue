@@ -4,14 +4,13 @@
 
 
             <!-- Hamburger Toggle + Mobile Menu -->
-          <header class="sticky top-0 bg-gradient-to-t from-[#4a1212] to-black text-white z-30">
+          <header class="sticky top-0 bg-gradient-to-t from-pristine-dark-blue to-black text-white z-30">
             <div class="w-full max-w-5xl mx-auto flex justify-between items-center px-4 sm:px-6 py-4 relative">
               <a href="/" class="flex items-center space-x-2">
                 <img src="/images/elite-waste-logistics-logo.svg" class="w-40" />
               </a>
 
-              <div class="w-full max-w-40 sm:max-w-none text-center sm:text-end text-white font-bold text-lg sm:text-2xl">Elite Waste Logistics</div>
-
+              <div class="w-full max-w-40 sm:max-w-none text-center sm:text-end text-white font-bold text-lg sm:text-2xl">Pristine Can</div>
 
             </div>
           </header>
@@ -44,14 +43,32 @@
 
         </div>
         <!-- Footer -->
-        <footer class="flex flex-col w-full justify-center bg-gradient-to-t from-[#4a1212] to-black text-gray-200 text-sm py-6 text-center items-center m-auto gap-4">
-            © {{ new Date().getFullYear() }} Elite Waste Logistics. All rights reserved.
+        <footer class="flex flex-col w-full justify-center bg-gradient-to-t from-pristine-dark-blue to-black text-gray-200 text-sm py-6 text-center items-center m-auto gap-4">
+
+             <!-- CONTACT CTA -->
+    <section id="contact" class="flex w-full text-white py-10">
+      <div class=" mx-auto px-6 text-center">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-white">Ready to Freshen Your Cans?</h2>
+        <p class="mt-3 text-gray-300 text-lg">Book online or contact us for a quick quote.</p>
+        <div class="mt-8 flex flex-col md:flex-row justify-center gap-4">
+          <button @click="showForm = true" class="inline-flex items-center justify-center rounded-xl bg-pristine-light-blue px-6 py-3 font-semibold hover:bg-[#5f1d1d]">
+            Sign Up Services
+          </button>
+          <a href="mailto:info@pristinecan.com" class="inline-flex items-center justify-center rounded-xl bg-white text-pristine-purple px-6 py-3 font-semibold hover:bg-gray-100">
+            ✉️ info@pristinecan.com
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div>© {{ new Date().getFullYear() }} Pristine Can. All rights reserved.</div>
+
 
 
       <!-- LOGIN MODAL -->
       <div
         v-if="showLogin"
-        class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+        class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
       >
         <div class="bg-white p-6 rounded shadow text-center w-80">
           <h2 class="font-bold text-xl mb-4">Admin Login</h2>
@@ -124,7 +141,7 @@ const LCRA_COUNTIES = ["Burnet", "Travis", "Bastrop", "Fayette", "Llano", "Gille
 export default {
   components: { login },
   inject: ['store','darkMode'],
-  name: "EliteWaste",
+  name: "PristineCan",
   data() {
     return {
       navHidden: false,

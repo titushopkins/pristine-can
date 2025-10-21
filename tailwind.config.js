@@ -16,16 +16,10 @@ module.exports = {
         },
         extend: {
             colors: {
-                'ryan-gray': '#041E31',
-                'belk-blue': '#0F3D57',
-                'belk-accent': '#3B82F6',
-                'belk-light': '#E6F0F7',
-                'belk-red': '#DC2626',
-
-                // 'belk-blue': '#73b9e3',
-                'belk-light-blue': '#dceafc',
-                'belkRed': '#DC2626',
-                'belkGray': '#F3F4F6',
+                'pristine-cyan': '#48a7cd',
+                'pristine-light-blue': '#266f99',
+                'pristine-dark-blue': '#0e3858',
+                'pristine-purple': '#020033',
               },
             fontSize: {
                 '3xs': '.45rem',
