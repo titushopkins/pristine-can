@@ -1,8 +1,8 @@
 {
   "port": 6646,
   "siteName": "pristine-can",
-  "siteDomain": "lclean-waste-logistics.com",
-  "mangoDomain": "api.clean-waste-logistics.com",
+  "siteDomain": "pristine-can.com",
+  "mangoDomain": "api.pristine-can.com",
   "useDevAPI": true,
   "mongoURI": "mongodb://127.0.0.1:27017",
   "database": "pristine-can",
