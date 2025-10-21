@@ -1,0 +1,19 @@
+{
+  "port": 6646,
+  "siteName": "elitewaste",
+  "siteDomain": "lclean-waste-logistics.com",
+  "mangoDomain": "api.clean-waste-logistics.com",
+  "useDevAPI": true,
+  "mongoURI": "mongodb://127.0.0.1:27017",
+  "database": "elitewaste",
+  "s3AccessKeyId": null,
+  "s3AccessKeySecret": null,
+  "s3Region": null,
+  "s3Bucket": "elitewaste",
+  "mailgunKey": null,
+  "mailgunDomain": null,
+  "algoliaAppId": null,
+  "algoliaSearchKey": null,
+  "algoliaIndex": null,
+  "license": "admin"
+}
