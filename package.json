@@ -4,7 +4,7 @@
     "scripts": {
       "dev": "vite",
       "build": "vite build",
-      "deploy": "yarn build && git add . && git commit -m 'Deploy latest build' && git push origin main"
+      "deploy": "git pull origin main && yarn build && git add -A && (git diff --cached --quiet && echo 'No changes to deploy.' || (git commit -m \"Deploy latest build\" && git push origin main))"
     },
     "dependencies": {
         "@headlessui/vue": "^1.6.7",
