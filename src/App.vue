@@ -53,11 +53,11 @@
         <h2 class="text-3xl md:text-4xl font-extrabold text-white">Ready to Freshen Your Cans?</h2>
         <p class="mt-3 text-gray-300 text-lg">Book online or contact us for a quick quote.</p>
         <div class="mt-8 flex flex-col md:flex-row justify-center gap-4">
-          <button @click="showForm = true" class="inline-flex items-center justify-center rounded-xl bg-pristine-light-blue px-6 py-3 font-semibold hover:bg-[#5f1d1d]">
-            Sign Up Services
-          </button>
-          <a href="mailto:info@pristinecan.com" class="inline-flex items-center justify-center rounded-xl bg-white text-pristine-purple px-6 py-3 font-semibold hover:bg-gray-100">
-            ✉️ info@pristinecan.com
+          <a href="tel:5127550622" class="inline-flex items-center justify-center rounded-xl bg-pristine-light-blue px-6 py-3 font-semibold hover:bg-[#5f1d1d]">
+            📞 (512) 755-0622
+          </a>
+          <a href="mailto:contact@pristine-can.com" class="inline-flex items-center justify-center rounded-xl bg-white text-pristine-purple px-6 py-3 font-semibold hover:bg-gray-100">
+            ✉️ contact@pristine-can.com
           </a>
         </div>
       </div>

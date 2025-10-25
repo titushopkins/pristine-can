@@ -25,10 +25,11 @@
             <h2 class="text-xl font-bold mb-2">Get in Touch</h2>
             <p class="text-gray-700">We’re local and responsive—reach us any time.</p>
             <div class="mt-4 space-y-3 text-gray-800">
-              <!-- <a href="tel:5127557020" class="block hover:underline">📞 (512) 755-7020</a> -->
-              <a href="mailto:info@pristinecan.com" class="block hover:underline">✉️ info@pristinecan.com</a>
+              <a href="tel:5127550622" class="block hover:underline">📞 (512) 755-0622</a>
+              <a href="mailto:contact@pristine-can.com" class="block hover:underline">✉️ contact@pristine-can.com</a>
               <p>⏱ Mon–Sat, 8:00am–6:00pm</p>
             </div>
+              <p class="flex text-xs pt-6 text-gray-400">Need help with the site? Send us an email: <a href="mailto:support@pristine-can.com" class="text-pristine-light-blue/70 block underline pl-1">✉️ support@pristine-can.com</a></p>
           </div>
 
           <div class="rounded-2xl p-6 bg-gray-50 ring-1 ring-gray-200">
@@ -48,7 +49,7 @@
             - Netlify Forms: add data-netlify="true" name="contact"
             - Formspree: action="https://formspree.io/f/xxxx" method="POST"
           -->
-          <form
+          <!-- <form
             class="bg-white rounded-2xl shadow p-6 md:p-8 ring-1 ring-gray-200"
             name="contact"
             method="POST"
@@ -102,24 +103,24 @@
               <button type="submit" class="inline-flex justify-center rounded-xl bg-pristine-dark-blue px-6 py-3 font-semibold text-white hover:bg-[#5f1d1d]">
                 Send Message
               </button>
-              <!-- <a href="tel:5127557020" class="inline-flex justify-center rounded-xl bg-black text-white px-6 py-3 font-semibold hover:bg-gray-800">
+              <a href="tel:5127557020" class="inline-flex justify-center rounded-xl bg-black text-white px-6 py-3 font-semibold hover:bg-gray-800">
                 Call Now
-              </a> -->
+              </a>
 
             <p class="mt-3 text-xs text-gray-500">Easy online payment — no contracts, no hassle.</p>
-          </form>
+          </form> -->
         </div>
       </div>
     </section>
 
     <!-- Bottom CTA -->
-    <section class="bg-gray-100">
+    <!-- <section class="bg-gray-100">
       <div class="max-w-6xl mx-auto px-6 py-10 text-center">
         <p class="text-gray-700">
-          Prefer email? <a href="mailto:info@pristinecan.com" class="text-pristine-dark-blue font-semibold hover:underline">info@pristinecan.com</a>
+          Prefer email? <a href="mailcontact" class="text-pristine-dark-blue font-semibold hover:underline">contact@pristine-can.com</a>
         </p>
       </div>
-    </section>
+    </section> -->
 
   </div>
 </template>
