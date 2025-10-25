@@ -4,34 +4,36 @@
 
 
             <!-- Hamburger Toggle + Mobile Menu -->
-          <header class="sticky top-0 bg-gradient-to-t from-pristine-dark-blue to-black text-white z-30">
+          <!-- <header class="sticky top-0 bg-gradient-to-t from-pristine-dark-blue to-black text-white z-30">
             <div class="w-full max-w-5xl mx-auto flex justify-between items-center px-4 sm:px-6 py-4 relative">
               <a href="/" class="flex items-center space-x-2">
                 <img src="/images/clean-prestine-can-logo.svg" class="w-40" />
               </a>
 
               <div class="w-full max-w-40 sm:max-w-none text-center sm:text-end text-white font-bold text-lg sm:text-2xl">Pristine Can</div>
+              <button @click="!showMenu">Menu</button>
 
             </div>
-          </header>
+          </header> -->
 
-              <!-- Slide-out Mobile Menu -->
-              <div
+          <Nav />
+
+              <!-- <div
                 v-if="showMenu"
-                @click.self="showMenu = false"
-                class="fixed inset-0 z-40 bg-black bg-opacity-50"
+                @click.self="showMenu = true"
+                class=" inset-0 z-50 bg-black bg-opacity-50"
               >
                 <div
                   class="bg-white dark:bg-black w-3/4 h-full p-6 shadow-lg space-y-6 text-belk-blue transform transition duration-300"
                   @click.stop
                 >
                   <h2 class="text-xl font-bold mb-4">Menu</h2>
-                  <a @click="showMenu = false" href="/" class="block hover:underline">Home</a>
-                  <a @click="showMenu = false" href="/services" class="block hover:underline">Services</a>
-                  <a @click="showMenu = false" href="/about" class="block hover:underline">About</a>
-                  <a @click="showMenu = false" href="/contact" class="block hover:underline">Contact</a>
+                  <a href="/" class="block hover:underline">Home</a>
+                  <a href="/services" class="block hover:underline">Services</a>
+                  <a href="/about" class="block hover:underline">About</a>
+                  <a href="/contact" class="block hover:underline">Contact</a>
                 </div>
-              </div>
+              </div> -->
 
 
             <RouterView v-slot="{ Component, route }" @navHidden="navHidden = $event">
@@ -122,6 +124,7 @@ import {
   signOut,
   onAuthStateChanged
 } from "firebase/auth";
+import Nav from './components/pages/nav.vue';
 
 const firebaseConfig = {
   apiKey: "AIzaSyAffJRJ4jYJEUAaiFBrTIixVku3N8OzJ34",
@@ -139,7 +142,7 @@ const auth = getAuth();
 const LCRA_COUNTIES = ["Burnet", "Travis", "Bastrop", "Fayette", "Llano", "Gillespie", "Colorado", "Matagorda"];
 
 export default {
-  components: { login },
+  components: { login, Nav },
   inject: ['store','darkMode'],
   name: "PristineCan",
   data() {
