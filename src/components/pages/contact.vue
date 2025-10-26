@@ -29,7 +29,7 @@
               <a href="mailto:contact@pristine-can.com" class="block hover:underline">✉️ contact@pristine-can.com</a>
               <p>⏱ Mon–Sat, 8:00am–6:00pm</p>
             </div>
-              <p class="flex text-xs pt-6 text-gray-400">Need help with the site? Send us an email: <a href="mailto:support@pristine-can.com" class="text-pristine-light-blue/70 block underline pl-1">✉️ support@pristine-can.com</a></p>
+              <p class="flex flex-col text-xs text-start pt-6 text-gray-400">Need help with the site? Send us an email: <a href="mailto:support@pristine-can.com" class="text-pristine-light-blue/70 block underline pl-1">✉️ support@pristine-can.com</a></p>
           </div>
 
           <div class="rounded-2xl p-6 bg-gray-50 ring-1 ring-gray-200">
